@@ -1,0 +1,80 @@
+<template>
+	<table aria-multiselectable="true"
+		class="slds-table slds-table_bordered slds-table_fixed-layout slds-table_resizable-cols" role="grid">
+		<thead>
+			<tr class="slds-line-height_reset">
+				<th aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
+					<a class="slds-th__action slds-text-link_reset" href="#" role="button" tabindex="0">
+						<span class="slds-assistive-text">Sort by: </span>
+						<div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+							<span class="slds-truncate" title="Name">Name</span>
+							<lightning-icon icon-name="utility:arrowdown" alternative-text="Utility image" title="Image"
+								size="xx-small" class="slds-is-sortable__icon">
+							</lightning-icon>
+						</div>
+					</a>
+					<div class="slds-resizable">
+						<input type="range" aria-label="Name column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-533" max="1000" min="20" tabindex="0" />
+						<span class="slds-resizable__handle">
+<span class="slds-resizable__divider"></span>
+						</span>
+					</div>
+				</th>
+				<th aria-label="Account Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
+					<a class="slds-th__action slds-text-link_reset" href="#" role="button" tabindex="0">
+						<span class="slds-assistive-text">Sort by: </span>
+						<div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+							<span class="slds-truncate" title="Account Name">Account Name</span>
+							<span class="slds-icon_container slds-icon-utility-arrowdown">
+<svg class="slds-icon slds-icon-text-default slds-is-sortable__icon " aria-hidden="true">
+<use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#arrowdown"></use>
+</svg>
+</span>
+						</div>
+					</a>
+					<div class="slds-resizable">
+						<input type="range" aria-label="Account Name column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-534" max="1000" min="20" tabindex="0" />
+						<span class="slds-resizable__handle">
+<span class="slds-resizable__divider"></span>
+						</span>
+					</div>
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr aria-selected="false" class="slds-hint-parent">
+				<th scope="row">
+					<div class="slds-truncate" title="Acme - 1,200 Widgets">
+						<a href="#" tabindex="0">Acme - 1,200 Widgets</a>
+					</div>
+				</th>
+				<td role="gridcell">
+					<div class="slds-truncate" title="Acme">Acme</div>
+				</td>
+			</tr>
+			<tr aria-selected="false" class="slds-hint-parent">
+				<th scope="row">
+					<div class="slds-truncate" title="Acme - 200 Widgets">
+						<a href="#" tabindex="0">Acme - 200 Widgets</a>
+					</div>
+				</th>
+				<td role="gridcell">
+					<div class="slds-truncate" title="Acme">Acme</div>
+				</td>
+			</tr>
+			<tr aria-selected="false" class="slds-hint-parent">
+				<th scope="row">
+					<div class="slds-truncate" title="salesforce.com - 1,000 Widgets">
+						<a href="#" tabindex="0">salesforce.com - 1,000 Widgets</a>
+					</div>
+				</th>
+				<td role="gridcell">
+					<div class="slds-truncate" title="salesforce.com">salesforce.com</div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<lightning-icon icon-name="utility:arrowdown" alternative-text="Utility image" title="Image" size="xx-small">
+	</lightning-icon>
+</template>
