@@ -4,7 +4,7 @@
 		<thead>
 			<tr class="slds-line-height_reset">
 				<th aria-label="Name" aria-sort="none" class="slds-is-resizable slds-is-sortable" scope="col">
-					<a class="slds-th__action slds-text-link_reset" href="#" role="button" tabindex="0">
+					<a class="slds-th__action slds-text-link_reset" href="javascript:void(0);" role="button" tabindex="0">
 						<span class="slds-assistive-text">Sort by: </span>
 						<div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
 							<span class="slds-truncate arrow" title="Name">Name</span>
@@ -13,12 +13,6 @@
 							</lightning-icon>
 						</div>
 					</a>
-					<div class="slds-resizable">
-						<input type="range" aria-label="Name column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-533" max="1000" min="20" tabindex="0" />
-						<span class="slds-resizable__handle">
-<span class="slds-resizable__divider"></span>
-						</span>
-					</div>
 				</th>
 				<th aria-label="Account Name" aria-sort="descending" class="slds-is-resizable slds-is-sortable" scope="col">
 					<a class="slds-th__action slds-text-link_reset slds-is-sorted slds-is-sorted_desc" href="#" role="button"
@@ -31,12 +25,6 @@
 							</lightning-icon>
 						</div>
 					</a>
-					<div class=" slds-resizable">
-						<input type="range" aria-label="Account Name column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-534" max="1000" min="20" tabindex="0" />
-						<span class="slds-resizable__handle">
-<span class="slds-resizable__divider"></span>
-						</span>
-					</div>
 				</th>
 				<th aria-label="Account Name2" aria-sort="ascending" class="slds-is-resizable slds-is-sortable" scope="col">
 					<a class="slds-th__action slds-text-link_reset slds-is-sorted slds-is-sorted_asc" href="#" role="button"
@@ -49,12 +37,9 @@
 							</lightning-icon>
 						</div>
 					</a>
-					<div class=" slds-resizable">
-						<input type="range" aria-label="Account Name column width" class="slds-resizable__input slds-assistive-text" id="cell-resize-handle-536" max="1000" min="20" tabindex="0" />
-						<span class="slds-resizable__handle">
-<span class="slds-resizable__divider"></span>
-						</span>
-					</div>
+				</th>
+				<th class="slds-line-height_reset" scope="col">
+					<div class="col" title="regular">regular</div>
 				</th>
 			</tr>
 		</thead>
@@ -67,6 +52,9 @@
 				</th>
 				<td role="gridcell">
 					<div class="slds-truncate" title="Acme">Acme</div>
+				</td>
+				<td role="gridcell">
+					<div class="slds-truncate" title="Acme2">Acme2</div>
 				</td>
 				<td role="gridcell">
 					<div class="slds-truncate" title="Acme2">Acme2</div>
@@ -84,6 +72,9 @@
 				<td role="gridcell">
 					<div class="slds-truncate" title="Acme2">Acme2</div>
 				</td>
+				<td role="gridcell">
+					<div class="slds-truncate" title="Acme2">Acme2</div>
+				</td>
 			</tr>
 			<tr aria-selected="false" class="slds-hint-parent">
 				<th scope="row">
@@ -93,6 +84,9 @@
 				</th>
 				<td role="gridcell">
 					<div class="slds-truncate" title="salesforce.com">salesforce.com</div>
+				</td>
+				<td role="gridcell">
+					<div class="slds-truncate" title="Acme2">Acme2</div>
 				</td>
 				<td role="gridcell">
 					<div class="slds-truncate" title="Acme2">Acme2</div>
