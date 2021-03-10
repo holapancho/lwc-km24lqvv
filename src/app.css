@@ -10,3 +10,8 @@ p {
     height: 100vh;
     overflow: scroll;
 }
+
+.my-icon {
+    --sds-c-icon-color-foreground-default: #006dcc;
+
+}
